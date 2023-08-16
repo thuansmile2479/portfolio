@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./components/Navbar"; 
 import LandingPage from "./components/LandingPage";
+import AboutPage from "./components/AboutPage";
+import Stack from "./components/Stack";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
     >
       <Navbar /> 
       <LandingPage />
+      <AboutPage />
+      <Stack />
     </div>
   );
 }
