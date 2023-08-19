@@ -1,15 +1,13 @@
-import React from "react";
-import FirebaseIcn from "../assets/SVGs/firebase-svgrepo-com.svg";
+import React from "react"; 
 import HtmlIcn from "../assets/SVGs/html-5-svgrepo-com.svg";
-import JavascriptIcn from "../assets/SVGs/js-svgrepo-com.svg";
-import LaravelIcn from "../assets/SVGs/laravel-svgrepo-com.svg";
-import MySqlIcn from "../assets/SVGs/mysql-logo-svgrepo-com.svg";
-import Php2Icn from "../assets/SVGs/php2-svgrepo-com.svg";
-import PythonIcn from "../assets/SVGs/python-svgrepo-com.svg";
+import JavascriptIcn from "../assets/SVGs/js-svgrepo-com.svg"; 
+import MySqlIcn from "../assets/SVGs/mysql-logo-svgrepo-com.svg"; 
 import ReactIcn from "../assets/SVGs/react-javascript-js-framework-facebook-svgrepo-com.svg";
 import TailwindIcn from "../assets/SVGs/tailwind-svgrepo-com.svg";
 import TypescriptIcn from "../assets/SVGs/typescript-logo-svgrepo-com.svg";
 import CssIcn from "../assets/SVGs/css-3-svgrepo-com.svg";
+import NodejsIcn from "../assets/SVGs/nodejs-svgrepo-com.svg"
+import MongodbIcn from "../assets/SVGs/mongodb-logo-svgrepo-com.svg"
 
 const Stack = () => {
   const techStack = [
@@ -34,24 +32,22 @@ const Stack = () => {
       path: ReactIcn,
     },
     {
+      name: "NodeJS",
+      path: NodejsIcn,
+    },
+    {
       name: "Tailwind",
       path: TailwindIcn,
-    },
-    // {
-    //   name: "Firebase",
-    //   path: FirebaseIcn,
-    // }, 
+    }, 
     {
       name: "MySql",
       path: MySqlIcn,
     },
-  ];
-//   const learning = [
-//     {
-//       name: "Php",
-//       path: Php2Icn,
-//     }, 
-//   ];
+    {
+      name: "Mongodb",
+      path: MongodbIcn,
+    },
+  ]; 
   return (
     <div className="w-full max-h-fit overflow-hidden flex justify-center py-6">
       <div className="flex flex-col justify-center items-center gap-10">

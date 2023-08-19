@@ -22,11 +22,7 @@ const AboutPage = () => {
                         A Passionate Front-End Developer📍
                     </h1>
                     <p className="text-gray-600 dark:text-gray-300 text-lg">
-                        I am an experienced person with a strong interest to increase my
-                        experiences in different fields. I have the passion to learn
-                        different tech stacks to maintain websites for smooth
-                        user-experience. I also excel in team-based development and
-                        collaboration to ensure the best development of web applications.
+                    Although I have no real work experience, working on small projects has also helped me understand the basics: HTML, CSS, Javascript and how to work with the React framework.
                     </p>
                     <a
                         href={Resume}

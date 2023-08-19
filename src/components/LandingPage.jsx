@@ -52,9 +52,7 @@ const LandingPage = () => {
             </div>
 
             <p className="py-7 text-lg text-gray-600 dark:text-gray-300 text-center lg:text-start">
-              I'm a dedicated developer with a keen eye for detail and a passion
-              for collaboration, I strive to create seamless digital experiences
-              that exceed client expectations.
+            Currently, I am a final year student majoring in information technology of a college, looking for a front-end developer internship position in Hanoi.
             </p>
             <div className="flex flex-row gap-4 mb-9 justify-center lg:justify-start items-center">
               <a href="https://github.com/thuansmile2479" target="_blank">

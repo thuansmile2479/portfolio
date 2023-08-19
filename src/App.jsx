@@ -3,17 +3,23 @@ import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
 import AboutPage from "./components/AboutPage";
 import Stack from "./components/Stack";
+import Projects from "./components/Projects";
+import ContactPage from "./components/ContactPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div
       id="top"
-      className="bg-white dark:bg-[#242424] transition ease-in-out font-poppins"
+      className="bg-rgb(255,255,255) dark:rgb(255,255,255) transition ease-in-out font-poppins"
     >
       <Navbar /> 
       <LandingPage />
       <AboutPage />
       <Stack />
+      <Projects />
+      <ContactPage />
+      <Footer />
     </div>
   );
 }
