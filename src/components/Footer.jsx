@@ -1,6 +1,6 @@
 import React from "react";
 import { BiCopyright } from "react-icons/bi";
-import { BiLogoGithub, BiCoffeeTogo } from "react-icons/bi";
+import { BiLogoGithub } from "react-icons/bi";
 import Logo from "../assets/logo.png";
 
 const Footer = () => {

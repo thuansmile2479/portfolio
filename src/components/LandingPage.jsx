@@ -62,7 +62,7 @@ const LandingPage = () => {
                 />
               </a>
               <a
-                href="https://static.topcv.vn/cvs/10d2b71a3012e89b6a9fd7c76437e01e.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                href="https://static.topcv.vn/cvs/3d5ee1d26afa4214eb9ecbdae47d8521.pdf#toolbar=0&navpanes=0&scrollbar=0"
                 target="_blank"
               >
                 <AiFillContacts
